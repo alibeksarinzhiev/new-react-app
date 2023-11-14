@@ -1,0 +1,29 @@
+.header{
+  padding: 46px;
+  background: black;
+
+  &__menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__lists{
+    color: #707070;
+    display: flex;
+  }
+  &__logo{
+    color: white;
+    display: flex;
+  }
+  &__auth{
+    color: white;
+    display: flex;
+    align-items: center;
+    button{
+      background: #306EF7;
+      width: 120px;
+      height: 55px;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
